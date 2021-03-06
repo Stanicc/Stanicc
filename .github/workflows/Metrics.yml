@@ -1,0 +1,35 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  push: {branches: ["master", "main"]}
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@latest
+        with:
+          base: header, repositories       # Only display "header" and "repositories" sections
+          repositories: 100                # Query only last 100 repositories
+          repositories_forks: no           # Don't include forks
+          repositories_affiliations: owner # Display only repositories where user is owner
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: false      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
+          config_timezone: America/Sao_Paulo # Set timezone
+          plugin_languages: yes
+          plugin_languages_details: percentage             # Additionally display total bytes size and percentage
+          plugin_activity: yes
+          plugin_activity_limit: 5    # Limit to 5 events
+          plugin_activity_days: 14    # Keep only events from last 14 days (can be set to 0 to disable limitations)
+          plugin_activity_filter: all # Show all events (use table above to filter events types)
+          plugin_traffic: yes
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
+          committer_token: ${{ secrets.GITHUB_TOKEN }}

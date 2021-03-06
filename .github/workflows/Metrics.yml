@@ -18,15 +18,16 @@ jobs:
           repositories_affiliations: owner # Display only repositories where user is owner
           plugin_habits: yes
           plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_days: 30        # Keep only events from last 30 days
           plugin_habits_facts: false      # Display facts section
           plugin_habits_charts: yes     # Display charts section
           config_timezone: America/Sao_Paulo # Set timezone
           plugin_languages: yes
-          plugin_languages_details: percentage             # Additionally display total bytes size and percentage
+          plugin_languages_colors: "kotlin:#F6D242, java:#3C8CE7, ..." # Make most used languages orange and JavaScript red
+          plugin_languages_details: bytes-size, percentage # Additionally display total bytes size and percentage
           plugin_activity: yes
           plugin_activity_limit: 5    # Limit to 5 events
-          plugin_activity_days: 14    # Keep only events from last 14 days (can be set to 0 to disable limitations)
+          plugin_activity_days: 0
           plugin_activity_filter: all # Show all events (use table above to filter events types)
           plugin_traffic: yes
           # Your GitHub token

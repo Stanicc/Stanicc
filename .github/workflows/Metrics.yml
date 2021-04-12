@@ -22,9 +22,6 @@ jobs:
           plugin_habits_facts: false      # Display facts section
           plugin_habits_charts: yes     # Display charts section
           config_timezone: America/Sao_Paulo # Set timezone
-          plugin_languages: yes
-          plugin_languages_colors: "kotlin:#F6D242, java:#3C8CE7, ..."
-          plugin_languages_details: bytes-size, percentage # Additionally display total bytes size and percentage
           plugin_activity: yes
           plugin_activity_limit: 5    # Limit to 5 events
           plugin_activity_days: 0

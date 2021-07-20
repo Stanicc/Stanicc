@@ -6,7 +6,6 @@
 - 🤔 I'm thinking to learn Frontend, Go and Rust<br>
 - 📫 How to reach me<br>
   * **Discord**: !! ♡ Gabileti - 갑리에라 ♡ !!#0604<br>
-  * **Twitter**: @GabiiiiST<br>
 
 <p align="center">
 	<br>

@@ -1617,13 +1617,13 @@
                     <h3>Language activity</h3>
                     <div class="chart-bars horizontal">
                         <div class="entry">
-                            <span class="name">Java</span>
-                            <div class="bar" style="width: 41.58489824009439%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="name">Kotlin</span>
+                            <div class="bar" style="width: 41.649422218640126%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             <span class="value">52%</span>
                         </div>
                         <div class="entry">
-                            <span class="name">Kotlin</span>
-                            <div class="bar" style="width: 38.41510175990561%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="name">Java</span>
+                            <div class="bar" style="width: 38.350577781359874%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             <span class="value">48%</span>
                         </div>
                     </div>

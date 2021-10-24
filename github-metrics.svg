@@ -1618,12 +1618,12 @@
                     <div class="chart-bars horizontal">
                         <div class="entry">
                             <span class="name">Kotlin</span>
-                            <div class="bar" style="width: 45.33083179263927%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <div class="bar" style="width: 45.7814733246438%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             <span class="value">57%</span>
                         </div>
                         <div class="entry">
                             <span class="name">Java</span>
-                            <div class="bar" style="width: 34.66916820736073%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <div class="bar" style="width: 34.218526675356195%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             <span class="value">43%</span>
                         </div>
                     </div>

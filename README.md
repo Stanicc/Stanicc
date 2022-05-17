@@ -9,8 +9,8 @@
 
 <p align="center">
 	<br>
-	<img src="https://github-readme-stats.vercel.app/api?username=Stanicc&show_icons=true&theme=algolia" height="165px">
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Stanicc&show_icons=true&theme=algolia" height="165px">
+	<img src="https://github-readme-stats-mu-eosin.vercel.app/api?username=Stanicc&show_icons=true&theme=algolia" height="165px">
+	<img src="https://github-readme-stats-mu-eosin.vercel.app/api/top-langs/?username=Stanicc&show_icons=true&theme=algolia" height="165px">
 </p>
 
 ![Metrics](https://metrics.lecoq.io/Stanicc?template=classic&activity=1&activity.limit=5&activity.days=14&activity.filter=all&activity.visibility=all&activity.timestamps=false&config.timezone=America%2FSao_Paulo)
